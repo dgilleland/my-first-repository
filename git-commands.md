@@ -12,5 +12,23 @@ We can use the git version control application directly from the command line. H
 There are a lot of things to learn when it comes to working with git, but these commands are the day-to-day ones that you will do as you work with version control.
 
 > **TIP:** You should make frequent, small commits when working on your projects.
-
+>
 > Work with these commands every day, and they will become a part of you (like the force Luke).
+
+## Remote Repositories
+
+You can use the GitHub CLI to create a remote repository on GitHub.com.
+
+```shell
+gh repo create my-first-repository
+```
+
+The command above is interactive, so just follow the prompts.
+
+You can **push** your code to GitHub.com by typing the following:
+
+```shell
+git push -u origin master
+```
+
+After that, you will only need to type `git push` to push any local changes to the remote repository.
